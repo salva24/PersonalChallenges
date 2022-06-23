@@ -1,0 +1,4 @@
+res1=input("Dame un adjetivo ")
+res2=input("Dame un verbo ")
+texto= f"Esta es mi historria {res1}, y por eso quiero {res2}"
+print(texto)
