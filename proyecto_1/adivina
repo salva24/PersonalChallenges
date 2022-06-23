@@ -1,0 +1,16 @@
+import random
+def adivino(x):
+    n=random.randint(0,x)
+    res=int(input(f"dime un número del 0 a {x} \n"))
+    while(res!=n):
+        if(res<n):
+            print("debe ser más alto")
+        else:
+            print("debe ser más bajo")
+        res=int(input(f"dime otro número del 0 a {x} \n"))
+    print("has\nganado!!!\n")
+
+
+print("hola, juguemos a un juego")
+x=int(input("dime un número \n"))
+adivino(x)
